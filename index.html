@@ -11,7 +11,7 @@
     <header><div><h1>ICE TAG</h1><p>Move across the ice, avoid hazards, and tag the other players.</p></div><button id="newGame">New game</button></header>
     <section class="setup" id="setup"><label>Players <select id="playerCount"><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select></label><button id="startGame">Start game</button></section>
     <section class="game" id="game" hidden>
-      <div class="board-wrap"><div id="board" class="board"><img src="https://raw.githubusercontent.com/heyitsjonleong/ice-tag-game/main/Ice%20Tag%20Game%20Board_2.jpeg" alt="Ice Tag board" onerror="this.alt='Board image could not be loaded';this.parentElement.classList.add('image-error')"><div id="tokens"></div></div></div>
+      <div class="board-wrap"><div id="board" class="board"><img src="https://raw.githubusercontent.com/heyitsjonleong/ice-tag-game/main/board.jpeg" alt="Ice Tag board" onerror="this.alt='Board image could not be loaded';this.parentElement.classList.add('image-error')"><div id="tokens"></div></div></div>
       <aside class="panel"><div class="turn" id="turnText"></div><div class="spinner" id="spinner">?</div><button class="roll" id="roll">Spin</button><p id="message">Spin to begin.</p><div class="legend"><strong>Players</strong><div id="players"></div></div><div class="rules"><strong>How to play</strong><p>White and blue results permit movement onto matching hexagons. Light blue hexagons accept either result. “Anything” allows any open adjacent hex; “Skip” forfeits the turn. You must move when a legal move exists.</p></div></aside>
     </section>
   </main>
